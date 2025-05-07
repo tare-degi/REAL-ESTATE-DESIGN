@@ -1,26 +1,26 @@
 public class Property {
 
-	private string propertyId;
-	private string title;
-	private string location;
-	private double price;
-	private int size;
-	private list<string> amenities;
-	private string status;
-	private Organization listedBy;
+    private String id;
+    private String title;
+    private String location;
+    private Float price;
+    private String description;
+    private String status;
+    private String phase;
+    private String community;
 
-	public string getdetails() {
-		// TODO - implement Property.getdetails
-		throw new UnsupportedOperationException();
-	}
+    public void viewDetails() {
+        // TODO - implement viewDetails logic
+        throw new UnsupportedOperationException("Not implemented yet");
+    }
 
-	/**
-	 * 
-	 * @param newStatus
-	 */
-	public void updateStatus(string newStatus) {
-		// TODO - implement Property.updateStatus
-		throw new UnsupportedOperationException();
-	}
+    public void edit() {
+        // TODO - implement edit logic
+        throw new UnsupportedOperationException("Not implemented yet");
+    }
 
+    public void assignToGroup() {
+        // TODO - implement assignToGroup logic
+        throw new UnsupportedOperationException("Not implemented yet");
+    }
 }

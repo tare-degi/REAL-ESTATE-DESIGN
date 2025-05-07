@@ -1,23 +1,17 @@
 public class Inquiry {
 
-	private string inquiryId;
-	private Buyer buyer;
-	private property property;
-	private string message;
-	private string response;
+    private String id;
+    private String buyerId;
+    private String message;
+    private String response;
 
-	public void send() {
-		// TODO - implement Inquiry.send
-		throw new UnsupportedOperationException();
-	}
+    public void send() {
+        // TODO - implement inquiry.send
+        throw new UnsupportedOperationException();
+    }
 
-	/**
-	 * 
-	 * @param response
-	 */
-	public void respond(string response) {
-		// TODO - implement Inquiry.respond
-		throw new UnsupportedOperationException();
-	}
-
+    public void respond() {
+        // TODO - implement inquiry.respond
+        throw new UnsupportedOperationException();
+    }
 }

@@ -1,42 +1,31 @@
-public class Organization extends users {
+public class Organization {
 
-	private string orgName;
+    private String id;
+    private String name;
+    private String contactInfo;
 
-	public void login() {
-		// TODO - implement Organization.login
-		throw new UnsupportedOperationException();
-	}
+    public void login() {
+        // TODO - implement organization.login
+        throw new UnsupportedOperationException();
+    }
 
-	/**
-	 * 
-	 * @param files
-	 */
-	public void secondPropertyFiles(list<file> files) {
-		// TODO - implement Organization.secondPropertyFiles
-		throw new UnsupportedOperationException();
-	}
+    public void logout() {
+        // TODO - implement organization.logout
+        throw new UnsupportedOperationException();
+    }
 
-	/**
-	 * 
-	 * @param assets
-	 */
-	public void providePropertyAssets(list<string> assets) {
-		// TODO - implement Organization.providePropertyAssets
-		throw new UnsupportedOperationException();
-	}
+    public void sendPropertyFile() {
+        // TODO - implement organization.sendPropertyFile
+        throw new UnsupportedOperationException();
+    }
 
-	/**
-	 * 
-	 * @param policies
-	 */
-	public void setListingPolicies(string policies) {
-		// TODO - implement Organization.setListingPolicies
-		throw new UnsupportedOperationException();
-	}
+    public void providePropertyAssets() {
+        // TODO - implement organization.providePropertyAssets
+        throw new UnsupportedOperationException();
+    }
 
-	public void manageListing() {
-		// TODO - implement Organization.manageListing
-		throw new UnsupportedOperationException();
-	}
-
+    public void setListingPolicies() {
+        // TODO - implement organization.setListingpolicies
+        throw new UnsupportedOperationException();
+    }
 }
